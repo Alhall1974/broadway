@@ -1,7 +1,15 @@
 h1,
 h2,
 h3,
+p,
 body {
   font-famliy: "Helvetica" sans-serif;
   font-weight: bold;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  color: white;
+  background-image: url("resources/images/the-flatiron-building.png");
 }
