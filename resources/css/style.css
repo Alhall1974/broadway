@@ -1,20 +1,19 @@
+html {
+  font-family: Helvetica;
+  text-align: center;
+}
+
 h1,
 h2,
 h3 {
-  font-family: Helvetica;
   font-weight: bold;
-  text-align: center;
 }
-html {
-  font-family: Helvetica;
-}
-body {
-  text-align: center;
-}
-#header  {
-  text-align: center;
+
+#header {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -29,22 +28,24 @@ h3{
   font-size: 23px;
 }
 
-p.topmenu {
+#topmenu {
   font-size: 18px;
+  color: white;
 }
 
-.process p,
-.us p {
+#process p,
+#us p {
   font-size: 14px;
 }
 
-.brdway {
+#brdway {
   font-size: 23px;
   color: white;
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
 }
 
-#footer p {
+#footer, .links {
   text-align: left;
   font-size: 11px;
   color: white;
